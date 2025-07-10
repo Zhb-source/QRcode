@@ -11,4 +11,4 @@ source ~/DiPingXian_ws/install/setup.bash
 ros2 run qrcode_pkg_py qrcode_scanner
 
 # 开启截图模式
-ros2 run your_package your_node --ros-args -p show_gui:=true
+ros2 run qrcode_pkg_py your_node --ros-args -p show_gui:=true
